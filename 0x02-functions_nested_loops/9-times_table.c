@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * times_table - Prints the 9 times table.
+ * times_table - Prints the 9 times table - Y4x.
  *
  * Description: This function prints the multiplication table for the number 9,
  * starting from 0, up to 9 times 9.

@@ -1,11 +1,13 @@
 #include <stdio.h>
 
 /**
- * main - Y4x
- * 
+ * main - fibonacci - Y4x
+ *
+ * Purpose - no hardcode
  *
  * Return:  (Success)
  */
+
 
 int main(void)
 {

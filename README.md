@@ -1,7 +1,6 @@
+# Low Level Programming & Algorithms - Y4x
 
-# Low Level Programming & Algorithms
-
-Welcome to my low level C programming experience at ALX Africa. Here I will be documenting what I have learned through a series of projects.
+Welcome to my low-level C programming experience at ALX Africa. Here I will be documenting what I have learned through a series of projects.
 
 <div style="text-align: center;">
   <img src="https://i.pinimg.com/originals/f5/36/01/f53601133f236d1cb167ac19f05a3d60.gif" alt="C Programming Logo" width="563" height="500">
@@ -26,10 +25,10 @@ Feel free to explore the code examples and projects in this repository to practi
 
 ## Goals
 
-- Learn about low level C code by building many functions from the ground up
+- Learn about low-level C code by building many functions from the ground up
 - Will not use stdlib in the first few sets of problems
-- Learn about low level C code by building many functions from the ground up
-- Build our own printf statement, possibly in a seperate project
+- Learn about low-level C code by building many functions from the ground up
+- Build our own printf statement, possibly in a separate project
 
 ## Projects
 
@@ -37,7 +36,7 @@ This repository includes various C programming projects and code examples. You c
 
 | Project Name     | Description                                |
 |------------------|--------------------------------------------|
-| [0x00-hello_world](https://github.com/ercudu75/alx-low_level_programming/tree/master/0x00-hello_world)  | Used printf successfuly to convert char to int    |
+| [0x00-hello_world](https://github.com/ercudu75/alx-low_level_programming/tree/master/0x00-hello_world)  | Used printf successfully to convert char to int    |
 | [0x01-variables_if_else_while](https://github.com/ercudu75/alx-low_level_programming/tree/master/0x01-variables_if_else_while)  | Learned how to use for loops with ascii values   |
 | [0x02-functions_nested_loops](https://github.com/ercudu75/alx-low_level_programming/tree/master/0x02-functions_nested_loops)  | Learned how functions and nested loops work on a<br> basic level    |
 | [0x03-debugging](https://github.com/ercudu75/alx-low_level_programming/tree/master/0x03-debugging)  | In this project, we focus on fixing code issues and<br> enhancing code quality through debugging techniques.   |
@@ -47,7 +46,7 @@ This repository includes various C programming projects and code examples. You c
 | [0x07-Even-More-Pointers<br>-and-Strings](https://github.com/ercudu75/alx-low_level_programming/tree/master/0x07-pointers_arrays_strings)  | Learned about assembly from crackme, lots o<br> advanced pointer arithmetic,<br> and rebuilding stdlib functions   |
 | [0x08-recursion](https://github.com/ercudu75/alx-low_level_programming/tree/master/0x08-recursion)  | Successfully implemented lots of prior stdlib<br> functions recursively as well as wild card<br> string comparison. Learned lot's about the stack.    |
 | [0x09-static_libraries](https://github.com/ercudu75/alx-low_level_programming/tree/master/0x09-static_libraries) | Compiled multiple static libraries and used with<br> various C files to reduce compilation time in the<br> linking process.    |
-| [0x0A-argc_argv](https://github.com/ercudu75/alx-low_level_programming/tree/master/0x0A-argc_argv) | Created various functions that took different<br> amounts of input and performed different<br> tasks. Advanced problem 100-change is<br> making minimum change from given cents. |
+| [0x0A-argc_argv](https://github.com/ercudu75/alx-low_level_programming/tree/master/0x0A-argc_argv) | Created various functions that took different<br> amounts of input and performed different<br> tasks. Advanced problem 100-change is<br> making the minimum change from given cents. |
 | [0x0B-malloc_free](https://github.com/ercudu75/alx-low_level_programming/tree/master/0x0B-malloc_free) | Coming Soon  |
 | [0x0C-more_malloc_free](https://github.com/ercudu75/alx-low_level_programming/tree/master/0x0C-more_malloc_free) | Coming Soon |
 | [0x0D-preprocessor](https://github.com/ercudu75/alx-low_level_programming/tree/master/0x0D-preprocessor) | Coming Soon |

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 10. C - Variadic functions - Y4x
 ============================
 
@@ -224,3 +225,6 @@ julien@ubuntu:~/0x0f. Variadic functions$
 -   GitHub repository: `alx-low_level_programming`
 -   Directory: `0x10-variadic_functions`
 -   File: `3-print_all.c`
+=======
+0x10. C - Variadic functions - Y4x
+>>>>>>> f30e6acd23f6280fa7d274cf4ca60a80f724653f

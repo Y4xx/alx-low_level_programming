@@ -1,47 +1,36 @@
-#include <stdlib.h>
-#include <string.h>
-#include <stdio.h>
-#include "hash_tables.h"
+# include "hash_tables.h"
 
 /**
- * hash_table_create - creates a hash table.
- * @size: size of the array
+ * hash_table_create - fun
  *
- * Return: a pointer to the newly created hash table, or NULL if something went wrong
+ * @size: in
+ * Return: out
  */
 hash_table_t *hash_table_create(unsigned long int size)
 {
-    hash_table_t *new_table = NULL;
-    unsigned long int i;
+	hash_table_t *new_table;
+	hash_node_t **array;
+	unsigned int i;
 
-    new_table = malloc(sizeof(hash_table_t));
-    if (new_table == NULL)
-        return (NULL);
+	if (size <= 0)
+		return (0);
 
-    new_table->size = size;
-    new_table->array = malloc(sizeof(hash_node_t *) * size);
-    if (new_table->array == NULL)
-    {
-        free(new_table);
-        return (NULL);
-    }
+	new_table = malloc(sizeof(hash_table_t));
+	if (new_table == 0)
+		return (0);
 
-    for (i = 0; i < size; i++)
-        new_table->array[i] = NULL;
+	array = malloc(sizeof(hash_node_t *) * size);
+	if (array == 0)
+	{
+		free(new_table);
+		return (0);
+	}
 
-    return (new_table);
-}
+	for (i = 0; i < size; i++)
+		array[i] = NULL;
 
-int main(void)
-{
-    hash_table_t *ht;
+	new_table->size = size;
+	new_table->array = array;
 
-    ht = hash_table_create(1024);
-    printf("%p\n", (void *)ht);
-
-    /* Free the allocated memory for the hash table */
-    free(ht->array);
-    free(ht);
-
-    return (EXIT_SUCCESS);
+	return (new_table);
 }
